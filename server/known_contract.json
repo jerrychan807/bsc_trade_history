@@ -1,0 +1,22 @@
+{
+  "PancakeSwap": {
+    "logo_url": "https://static.debank.com/image/project/logo_url/bsc_pancakeswap/a4e035cf4495755fddd5ebb6e5657f63.png",
+    "contract_list": [
+      "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+    ]
+  },
+  "Venus": {
+    "logo_url": "https://static.debank.com/image/project/logo_url/bsc_venus/db05054f7f5306ff2f083a7860aafcb2.png",
+    "contract_list": [
+      "0xec3422Ef92B2fb59e84c8B02Ba73F1fE84Ed8D71",
+      "0xfD5840Cd36d94D7229439859C0112a4185BC0255"
+    ]
+  },
+  "Unknown": {
+    "logo_url": "https://debank.com/static/media/contract.13bef102.svg",
+    "contract_list": [
+      ""
+    ]
+  }
+}
+
