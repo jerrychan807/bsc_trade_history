@@ -1,6 +1,6 @@
 # bsc_trade_history
 
-Make your BSC transaction simple. 
+清晰展示币安智能链的交易历史
 
 ![vue](https://img.shields.io/badge/vue-v2.6.14-blue)
 ![vue-cli](https://img.shields.io/badge/vue--cli-v4.5.14-blue)
@@ -11,49 +11,47 @@ Make your BSC transaction simple.
 ![Flask](https://img.shields.io/badge/Flask-v2.0.2-orange)
 ![python](https://img.shields.io/badge/python-v3.7.10-orange)
 
-[中文ReadMe]()
-
 ---
 
-## Background:
+## 项目背景:
 
-inspired by [debank](https://debank.com/) ,Practice my hands on this small project
+感觉[debank](https://debank.com/) 的交易历史功能不错，做个小项目练手。
 
-## Online Demo:
+## 在线Demo:
 
 [BscTradeHistory Website](http://app.foolisheddy.top:8080/history)
 
-## Snapshot:
+## 效果图:
 
 ![20211104132655](https://raw.githubusercontent.com/jerrychan807/imggg/master/image/20211104132655.png)
 
-## Install-Web
+## 项目安装-Web
 
 ```bash
-# install
+# 安装
 npm install -g @vue/cli
 npm install axios --save
 npm install bootstrap --save
 npm install bootstrap-vue --save
-# enter web project directory
+# 进入项目目录
 cd client
-# run Web
+# 运行Web
 npm run serve
 ```
 
-## Install-Api
+## 项目安装-Api
 
 ```bash
-# enter web project directory
+# 进入项目目录
 cd server
-# install pyproject.toml required package
+# 安装pyproject.toml文件中的全部依赖
 poetry install
-# enter your bscscan apikey
+# 配置bscscan apikey
 vim config.py
-# run Api
+# 运行api
 poetry run python app.py
 ```
 
 ## Usage
 
-visit `http://YourIp:8080/history`
+访问 `http://YourIp:8080/history`
