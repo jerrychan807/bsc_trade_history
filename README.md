@@ -11,7 +11,7 @@ Make your BSC transaction simple.
 ![Flask](https://img.shields.io/badge/Flask-v2.0.2-orange)
 ![python](https://img.shields.io/badge/python-v3.7.10-orange)
 
-[中文ReadMe]()
+[中文ReadMe](https://github.com/jerrychan807/bsc_trade_history/blob/main/READMEcn.md)
 
 ---
 
