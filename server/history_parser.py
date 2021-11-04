@@ -157,11 +157,8 @@ def query_bsc_history(address, page, offset):
 
 
 if __name__ == '__main__':
-    address = "0x91f24dc6feed1461b5a17360bf118c5c21147939"
+    address = "0x6bf1d2B66Ae5Fd6bB31A56EF22f3d4c9D1340Aa7"
     page = 3
     offset = 10
     res = query_bsc_history(address, page, offset)
     print(res)
-    #     break
-    # hash = "0x1357af780352bcd451422452c7438e2a0d8a323dc770ef4d131f5791d8cb25c4"
-    # history.parse_transaction_receipt(hash)
