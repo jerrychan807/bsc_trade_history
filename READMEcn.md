@@ -17,6 +17,8 @@
 
 感觉[debank](https://debank.com/) 的交易历史功能不错，做个小项目练手。
 
+Blog:[Crypto-BscTradeHistory Project](https://jerrychan807.github.io/2021/11/04/Crypto-BscTradeHistory%20Project/)
+
 ## 在线Demo:
 
 [BscTradeHistory Website](http://app.foolisheddy.top:8080/history)

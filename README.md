@@ -19,6 +19,8 @@ Make your BSC transaction simple.
 
 inspired by [debank](https://debank.com/) ,Practice my hands on this small project
 
+Blog:[Crypto-BscTradeHistory Project](https://jerrychan807.github.io/2021/11/04/Crypto-BscTradeHistory%20Project/)
+
 ## Online Demo:
 
 [BscTradeHistory Website](http://app.foolisheddy.top:8080/history)
