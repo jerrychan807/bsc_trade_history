@@ -13,7 +13,7 @@ import json
 from demo_data import transaction_info_list
 
 # configuration
-DEBUG = True
+DEBUG = False
 
 # instantiate the app
 app = Flask(__name__)
@@ -21,46 +21,6 @@ app.config.from_object(__name__)
 
 # enable CORS
 CORS(app, resources={r'/*': {'origins': '*'}})
-
-RESOURCES = [
-    {
-        'sn': 'SSNI-103',
-        'teacher': '葵つかさ',
-        'learnt': True
-    },
-    {
-        'sn': 'JUY-349',
-        'teacher': '蒂亚',
-        'learnt': False
-    },
-    {
-        'sn': 'MXSPS-535',
-        'teacher': '麻生希',
-        'learnt': True
-    }
-]
-
-
-# sanity check route
-@app.route('/open', methods=['GET'])
-def open_door():
-    return jsonify(u'芝麻开门！')
-
-
-@app.route('/resources', methods=['GET', 'POST'])
-def all_res():
-    response_object = {'status': 'success'}
-    if request.method == 'POST':
-        post_data = request.get_json()
-        RESOURCES.append({
-            'sn': post_data.get('sn'),
-            'teacher': post_data.get('teacher'),
-            'learnt': post_data.get('learnt')
-        })
-        response_object['message'] = '资源添加成功！'
-    else:
-        response_object['resources'] = RESOURCES
-    return jsonify(response_object)
 
 
 @app.route('/history', methods=['POST'])
