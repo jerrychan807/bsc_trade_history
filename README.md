@@ -23,7 +23,7 @@ Blog:[Crypto-BscTradeHistory Project](https://jerrychan807.github.io/2021/11/04/
 
 ## Online Demo:
 
-[BscTradeHistory Website](http://app.foolisheddy.top:8080/history)
+[BscTradeHistory Website](https://bsc-trade-history.vercel.app/history)
 
 ## Snapshot:
 

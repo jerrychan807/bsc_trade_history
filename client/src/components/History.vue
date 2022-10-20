@@ -115,7 +115,7 @@ export default {
   },
   methods: {
     getResources() {
-      const path = 'http://199.255.96.224:5001/historyDemo';
+      const path = 'https://app.foolisheddy.top/historyDemo';
       axios.post(path)
           .then((res) => {
             this.history = res.data.result;
@@ -145,7 +145,7 @@ export default {
       this.submitAddr(payload);
     },
     submitAddr(payload) {
-      const path = 'http://199.255.96.224:5001/history';
+      const path = 'https://app.foolisheddy.top/history';
       axios.post(path, payload, {timeout: 20000})
           .then((res) => {
             this.history = res.data.result;
